@@ -8,7 +8,6 @@ function Transfer({ sender, setBalance }) {
   const [sendAmount, setSendAmount] = useState("");
   const [recipient, setRecipient] = useState("");
   const [privateKey, setPrivateKey] = useState("");
-  console.log(sender);
   
   const setValue = (setter) => (evt) => setter(evt.target.value);
   
